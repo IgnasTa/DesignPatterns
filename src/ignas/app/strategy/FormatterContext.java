@@ -14,7 +14,7 @@ public class FormatterContext {
         this.formatter = formatter;
     }
 
-    public String format(String text){
+    public String apply(String text){
         return formatter.format(text);
     }
 }

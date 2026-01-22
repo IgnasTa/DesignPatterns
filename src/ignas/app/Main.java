@@ -26,11 +26,11 @@ public class Main {
 
         Formatter upperCaseFormatter = new UpperCaseFormatter();
         Formatter plainFormatter = new PlainTextFormater();
-        new ReportFacade(chain, upperCaseFormatter).generateReport(report);
+        new ReportFacade(chain, upperCaseFormatter).processReport(report);
 
         System.out.println();
 
-        new ReportFacade(chain, plainFormatter).generateReport(report);
+        new ReportFacade(chain, plainFormatter).processReport(report);
 
     }
 }
