@@ -18,6 +18,7 @@ public class Main {
                 .addSection("Strategy")
                 .addSection("Chain of Responsibility")
                 .addSection("Facade")
+                .addSection("Iterator")
                 .build();
 
         Handler chain = new ReportTitleHandler();
